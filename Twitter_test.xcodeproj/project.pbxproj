@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4DE44B941FBCB99700D5A947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44B931FBCB99700D5A947 /* AppDelegate.swift */; };
-		4DE44B961FBCB99800D5A947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44B951FBCB99800D5A947 /* ViewController.swift */; };
 		4DE44B991FBCB99800D5A947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE44B971FBCB99800D5A947 /* Main.storyboard */; };
 		4DE44B9B1FBCB99800D5A947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE44B9A1FBCB99800D5A947 /* Assets.xcassets */; };
 		4DE44B9E1FBCB99800D5A947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE44B9C1FBCB99800D5A947 /* LaunchScreen.storyboard */; };
 		4DE44BA91FBCB99800D5A947 /* Twitter_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44BA81FBCB99800D5A947 /* Twitter_testTests.swift */; };
 		4DE44BB41FBCB99800D5A947 /* Twitter_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44BB31FBCB99800D5A947 /* Twitter_testUITests.swift */; };
+		4DE44BC21FBCC23800D5A947 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44BC11FBCC23800D5A947 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		4DE44B901FBCB99700D5A947 /* Twitter_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE44B931FBCB99700D5A947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DE44B951FBCB99800D5A947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DE44B981FBCB99800D5A947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DE44B9A1FBCB99800D5A947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE44B9D1FBCB99800D5A947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		4DE44BAF1FBCB99800D5A947 /* Twitter_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twitter_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE44BB31FBCB99800D5A947 /* Twitter_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_testUITests.swift; sourceTree = "<group>"; };
 		4DE44BB51FBCB99800D5A947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE44BC11FBCC23800D5A947 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				4DE44B931FBCB99700D5A947 /* AppDelegate.swift */,
-				4DE44B951FBCB99800D5A947 /* ViewController.swift */,
 				4DE44B971FBCB99800D5A947 /* Main.storyboard */,
+				4DE44BC11FBCC23800D5A947 /* SplashViewController.swift */,
 				4DE44B9A1FBCB99800D5A947 /* Assets.xcassets */,
 				4DE44B9C1FBCB99800D5A947 /* LaunchScreen.storyboard */,
 				4DE44B9F1FBCB99800D5A947 /* Info.plist */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE44B961FBCB99800D5A947 /* ViewController.swift in Sources */,
 				4DE44B941FBCB99700D5A947 /* AppDelegate.swift in Sources */,
+				4DE44BC21FBCC23800D5A947 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

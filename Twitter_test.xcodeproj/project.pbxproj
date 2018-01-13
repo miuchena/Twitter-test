@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DC90257200A75F3005C1531 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC90256200A75F3005C1531 /* LoginViewController.swift */; };
+		4DC90259200A816F005C1531 /* TwitterLoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC90258200A816F005C1531 /* TwitterLoginDelegate.swift */; };
 		4DE44B941FBCB99700D5A947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE44B931FBCB99700D5A947 /* AppDelegate.swift */; };
 		4DE44B991FBCB99800D5A947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE44B971FBCB99800D5A947 /* Main.storyboard */; };
 		4DE44B9B1FBCB99800D5A947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE44B9A1FBCB99800D5A947 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DC90256200A75F3005C1531 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4DC90258200A816F005C1531 /* TwitterLoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginDelegate.swift; sourceTree = "<group>"; };
 		4DE44B901FBCB99700D5A947 /* Twitter_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE44B931FBCB99700D5A947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DE44B981FBCB99800D5A947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				4DE44B9A1FBCB99800D5A947 /* Assets.xcassets */,
 				4DE44B9C1FBCB99800D5A947 /* LaunchScreen.storyboard */,
 				4DE44B9F1FBCB99800D5A947 /* Info.plist */,
+				4DC90256200A75F3005C1531 /* LoginViewController.swift */,
+				4DC90258200A816F005C1531 /* TwitterLoginDelegate.swift */,
 			);
 			path = Twitter_test;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC90259200A816F005C1531 /* TwitterLoginDelegate.swift in Sources */,
+				4DC90257200A75F3005C1531 /* LoginViewController.swift in Sources */,
 				4DE44B941FBCB99700D5A947 /* AppDelegate.swift in Sources */,
 				4DE44BC21FBCC23800D5A947 /* SplashViewController.swift in Sources */,
 			);
